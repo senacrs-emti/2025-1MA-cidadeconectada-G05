@@ -1,3 +1,4 @@
+//inicio dos codigos do mapa//
 var map;
 console.log(map);
 
@@ -17,14 +18,20 @@ function success(pos){
         attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
     }).addTo(mapa);
 
+    //adicionar marcadores no mapa:
     L.marker([pos.coords.latitude, pos.coords.longitude]) .addTo(mapa)
         .bindPopup('Você está aqui!')
         .openPopup();
 
 
-    L.marker([-30.0358182, -51.2143508]) .addTo(mapa)
+    L.marker([-30.035818, -51.214350]) .addTo(mapa)
             .bindPopup('Auditório Araújo Viana, <a href="araujoviana.html" target="_blank">Clique aqui para ver os shows!</a>')
             .openPopup('Auditório Araújo Viana, <a href="araujoviana.html" target="_blank">Clique aqui para ver os shows!</a>');
+
+    
+    L.marker([-30.031182, -51.234438]) .addTo(mapa)
+            .bindPopup('Casa de Cultura Mário Quintana, <a href="marioquintana.html" target="_blank">Clique aqui para ver os shows!</a>')
+            .openPopup('Casa de Cultura Mário Quintana, <a href="marioquintana.html" target="_blank">Clique aqui para ver os shows!</a>');
 }
 
 
@@ -37,5 +44,6 @@ var watchID = navigator.geolocation.watchPosition(success, error, {
     timeout: 5000
 });
 //navigator.geolocation.clearWatch(watchID);
+//fim do codigo do mapa//
 
 
