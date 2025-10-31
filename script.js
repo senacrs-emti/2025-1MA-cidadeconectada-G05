@@ -1,6 +1,8 @@
 //inicio dos codigos do mapa//
 var mapa;
+var marker1, market2, market3;
 console.log(mapa);
+
 
 function success(pos){
     console.log(pos.coords.latitude,pos.coords.longitude);
@@ -8,28 +10,26 @@ function success(pos){
     if (mapa === undefined) {
         mapa = L.map('mapa').setView([pos.coords.latitude, pos.coords.longitude], 15);
     } else {
-        map.remove();
+        mapa.remove();
         mapa = L.map('mapa').setView([pos.coords.latitude, pos.coords.longitude], 15);
     }
-
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
         maxZoom: 19,
         attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
     }).addTo(mapa);
+
+    L.marker([51.5, -0.09]).addTo(mapa).bindPopup("I am a green leaf.");
+    L.marker([51.495, -0.083]).addTo(mapa).bindPopup("I am a red leaf.");
+    L.marker([-30.03544, -51.2375]).addTo(mapa).bindPopup('Auditório Araújo Viana, <a href="araujoviana.html" target="_blank">Clique aqui para ver os shows!</a>');
     
-    L.marker([pos.coords.latitude, pos.coords.longitude]).addTo(mapa)
+    var marker1 = L.marker([pos.coords.latitude, pos.coords.longitude]).addTo(mapa)
         .bindPopup('Você está aqui!')
         .openPopup();
 
-    L.marker([-30.035818, -51.214350]).addTo(mapa)
+    var marker2 = L.marker([-30.03580, -51.21445]).addTo(mapa)
             .bindPopup('Auditório Araújo Viana, <a href="araujoviana.html" target="_blank">Clique aqui para ver os shows!</a>')
             .openPopup('Auditório Araújo Viana, <a href="araujoviana.html" target="_blank">Clique aqui para ver os shows!</a>');
-
-    L.marker([-30.031182, -51.234438]).addTo(mapa)
-            .bindPopup('Casa de Cultura Mário Quintana, <a href="marioquintana.html" target="_blank">Clique aqui para ver os shows!</a>')
-            .openPopup('Casa de Cultura Mário Quintana,');
 }
-
 function error(err){
     console.log(err);
 }
