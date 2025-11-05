@@ -43,4 +43,17 @@ var watchID = navigator.geolocation.watchPosition(success, error, {
     timeout: 5000
 });
 //navigator.geolocation.clearWatch(watchID);
-//fim do codigo do mapa//
+//------------------------------------------fim do codigo do mapa------------------------------------------------//
+function search(){
+    let input = document.getElementById('barradepesquisa')
+    input = input.value.toLowerCase()
+    let x = document.getElementsByClassName('eventos')
+
+    for(i = 0; i < x.length; i++){
+        if(!x[i].innerHTML.toLowerCase().includes(input)){
+            x[i].style.display = "none"
+        }else{
+            x[i].style.display = "list-item"
+        }
+    }
+}
