@@ -44,6 +44,7 @@ var watchID = navigator.geolocation.watchPosition(success, error, {
 });
 //navigator.geolocation.clearWatch(watchID);
 //------------------------------------------fim do codigo do mapa------------------------------------------------//
+//---------------------------------------------inicio da pesquisa------------------------------------------------//
 function search(){
     let input = document.getElementById('barradepesquisa')
     input = input.value.toLowerCase()
@@ -57,3 +58,9 @@ function search(){
         }
     }
 }
+//-----------------------------------------------fim da pesquisa--------------------------------------------------//
+//-----------------------------------------------inicio do botao--------------------------------------------------//
+function scrollToTop(){
+    window.scrollTo(0,0)
+}
+//-----------------------------------------------fim do botao--------------------------------------------------//
