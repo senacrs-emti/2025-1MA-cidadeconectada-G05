@@ -15,9 +15,15 @@ input{
     border: 1px solid black;
 }
 .topo{
-    background-color: black;
-    height: 20px;
-    width: 30px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: 8px 12px;
+    background-color: purple;
     color: white;
     transition: all 0.5s ease 0seg;
+    cursor: pointer;
+    border-radius: 5px;
+    border-radius: 1px solid purple;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
