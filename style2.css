@@ -1,0 +1,29 @@
+#mapa{
+    height: 300px;
+    width: 80%;
+    margin-left: 10%;
+}
+li{
+    list-style-type: none;
+    font-size: 100px;
+}
+input{
+    width: 300px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+.topo{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: 8px 12px;
+    background-color: #967eee;
+    color: white;
+    transition: all 0.5s ease 0seg;
+    cursor: pointer;
+    border-radius: 5px;
+    border-radius: 1px solid purple;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

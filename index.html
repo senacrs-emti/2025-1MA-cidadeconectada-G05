@@ -1,10 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+    <!--links do mapa-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" 
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" 
+        crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" 
+        crossorigin=""></script>
+    <!--link do mapa-->
+        <title>Document</title>
 </head>
 <body>
     <header>
@@ -15,18 +24,29 @@
         <div class="navegaçao">
             
             <div class="Criar">
-               <a href=""> <h2>Criar Evento</h2> </a>
+            <a href=""> <h2>Criar Evento</h2> </a>
             </div>
             <div class="Eventos">
-               <a href=""> <h2>Meus Eventos</h2> </a> 
+            <a href=""> <h2>Meus Eventos</h2> </a> 
             </div>
             <div class="Ingressos">
-               <a href=""> <h2>Meus ingressos</h2> </a> 
+            <a href=""> <h2>Meus ingressos</h2> </a> 
             </div>
 
         </div>
     </header>
-    <main></main>
+    <main>
+        <input type="text" id="barradepesquisa" name="barradepesquisa" placeholder="Pesquisar eventos" onkeyup="search()">
+    <ul>
+        <li class="eventos">abacaxi</li>
+        <li class="eventos">morango</li>
+        <li class="eventos">laranja</li>
+    </ul>
+    
+    <div id="mapa"></div>
+    <script src="script.js"></script>
+    <div onclick="scrollToTop()" class="topo">TOPO</div>
+    </main>
     <footer></footer>
     
 </body>
