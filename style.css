@@ -62,7 +62,7 @@ h1{
 }
  
 .minhapagina h1 {
-    color:blueviolet
+    color:blueviolet;
     margin-bottom: 20px;
     font-size: 60px;
 }
@@ -104,7 +104,7 @@ h1{
 }
  
 .noticia button {
-    background-color:blueviolet
+    background-color:blueviolet;
     color: white;
     border: none;
     padding: 12px;
