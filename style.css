@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    color: white;
+}
+header{
+    background-color: #8067d8;
+    height: 80px;
+    max-height: 100px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 25px;
+    position: fixed;
+    width: 100%;
+}
+main{
+    height: 1000px;
+    width: 100%;
+    background-color: rgb(235, 232, 232);
+}
+h1{
+    float: left;
+    margin-top: 18px;
+    margin-right: 20px;
+}
+.pesquisa input{
+   float: left;
+   border-radius: 12px;
+   background-color: white;
+   height: 78px;
+   width: 500px;
+   font-size: 22px;
+   padding:12px ;
+   border: none;
+   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+
+}
+.navegaçao{
+    color: grey;
+    margin-left: 20px;
+    margin-top: 25px;
+
+}
+    .navegaçao .Criar{
+        float: left;
+        margin-left: 600px;
+          
+    }
+        .navegaçao .Eventos{
+            float: left;
+             margin-left: 20px;
+        }
+            .navegaçao .Ingressos{
+                float: left;
+                 margin-left: 20px;
+            }
