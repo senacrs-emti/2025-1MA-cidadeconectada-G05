@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  
 }
  
 body {
@@ -9,11 +10,11 @@ body {
   color: #444;
 }
  
-.footer {
+footer {
   background-color: #5D3FD3;
   color: #fff;
   padding: 40px 20px 20px 20px;
-  font-size: 14px;
+
 }
  
 .footer-container {
