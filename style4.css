@@ -1,5 +1,4 @@
 *{
-<<<<<<< HEAD
     margin: 0px;
 }
 header{
@@ -52,7 +51,6 @@ h1{
                 float: left;
                  margin-left: 20px;
             }
-=======
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -157,4 +155,3 @@ footer {
     height: 60;
     font-size: 25px;
 }
->>>>>>> sananda
