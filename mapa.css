@@ -1,11 +1,11 @@
 #mapa{
+    margin-bottom: 30px;
     height: 300px;
     width: 80%;
     margin-left: 10%;
 }
 li.eventos{
     list-style-type: none;
-    font-size: 100px;
 }
 input{
     width: 300px;
