@@ -3,6 +3,7 @@
     height: 300px;
     width: 80%;
     margin-left: 10%;
+    margin-top: 20px;
 }
 li.eventos{
     list-style-type: none;
@@ -26,4 +27,5 @@ input{
     border-radius: 5px;
     border-radius: 1px solid purple;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    z-index: 999;
 }
