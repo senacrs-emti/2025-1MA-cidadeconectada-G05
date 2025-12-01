@@ -22,7 +22,6 @@ function success(pos){
     var marioquintana = L.marker([-30.03544, -51.2375]).addTo(mapa).bindPopup('Casa de Cultura Mário Quintana, <a href="marioquintana.html" target="_blank">Clique aqui para ver os shows!</a>');
     var bourboncountry = L.marker([-30.02185, -51.16274]).addTo(mapa).bindPopup('Teatro Bourbon Country, <a href="teatrobourboncountry.html" target="_blank">Clique aqui para ver os shows!</a>');
     var opiniao = L.marker([-30.04177,-51.22099]).addTo(mapa).bindPopup('Bar Opinião, <a href="opiniao.html" target="_blank">Clique aqui para ver os shows!</a>');
-    var block = L.marker([-30.02368, -51.21237]).addTo(mapa).bindPopup('Block Office, <a href="block.html" target="_blank">Clique aqui para ver os shows!</a>');
     var urb = L.marker([-29.99699, -51.20062]).addTo(mapa).bindPopup('URB Stage, <a href="urbstage.html" target="_blank">Clique aqui para ver os shows!</a>');
     var kto = L.marker([-29.98789,-51.17768]).addTo(mapa).bindPopup('KTO Arena, <a href="ktoarena.html" target="_blank">Clique aqui para ver os shows!</a>');
 
