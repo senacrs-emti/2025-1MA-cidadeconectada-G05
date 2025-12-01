@@ -13,7 +13,7 @@ header{
     color: white;
 }
 main{
-    height: 1200px;
+    height: 2000px;
     width: 100%;
     background-color: rgb(235, 232, 232);
    
@@ -21,7 +21,7 @@ main{
 article section.fundo{
   width: 100%;
   height: 100px;
-  background-image:url(https://destinopoa.com.br/wp-content/uploads/2024/01/Araujo-Vianna-Foto-Luli-Aguzzi-02.jpg) ;
+  background-image:url(https://destinopoa.com.br/wp-/uploads/2024/01/Araujo-Vianna-Foto-Luli-Aguzzi-02.jpg) ;
 }
 h1{
     float: left;
@@ -41,21 +41,22 @@ h1{
   font-size: 50px;
 }
 
-.shows {
-    display: flex;
-    gap: 10px;
-}
+
  
 .show {
+    display: block;
+    float: left;
+    margin-left: 35px;
     background-color: white;
-    padding: 15px;
+    padding: 8px;
     width: 100%;
-    max-width: 19.5%;
+    max-width: 21.5%;
     border-radius: 10px;
     transition: all 0.5s ease;
     margin-top: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
- 
+
 .show img {
     width: 100%;
     height: auto;
@@ -65,6 +66,7 @@ h1{
  
 .show p {
     margin-bottom: 20px;
+    font-size: 17px;
 }
  
 .show button {
