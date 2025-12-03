@@ -1,5 +1,5 @@
 main{
-    height: 1550px;
+    height: 1750px;
 }
 .noticias {
     gap: 10px;
@@ -11,7 +11,7 @@ main{
     float: left;
     background-color: white;
     padding: 15px;
-    width: 19.5%;
+    width: 20%;
     border-radius: 10px;
     transition: all 0.5s ease;
     margin-left: 35px;
