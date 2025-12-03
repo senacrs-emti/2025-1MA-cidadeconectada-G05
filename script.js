@@ -17,10 +17,9 @@ function success(pos){
         attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
     }).addTo(mapa);
 
-    var unisinos = L.marker([-30.02748, -51.17500]).addTo(mapa).bindPopup('Teatro Unisinos, <a href="teatrounisinos.html" target="_blank">Clique aqui para ver os shows!</a>');
     var margs = L.marker([-30.02907,-51.23169]).addTo(mapa).bindPopup('Museu de Arte do Rio Grande do Sul, <a href="margs.html" target="_blank">Clique aqui para ver as exposições!</a>');
     var marioquintana = L.marker([-30.03544, -51.2375]).addTo(mapa).bindPopup('Casa de Cultura Mário Quintana, <a href="marioquintana.html" target="_blank">Clique aqui para ver os shows!</a>');
-    var bourboncountry = L.marker([-30.02185, -51.16274]).addTo(mapa).bindPopup('Teatro Bourbon Country, <a href="teatrobourboncountry.html" target="_blank">Clique aqui para ver os shows!</a>');
+    var bourboncountry = L.marker([-30.02185, -51.16274]).addTo(mapa).bindPopup('Teatro Bourbon Country, <a href="bourboncountry.html" target="_blank">Clique aqui para ver os shows!</a>');
     var opiniao = L.marker([-30.04177,-51.22099]).addTo(mapa).bindPopup('Bar Opinião, <a href="opiniao.html" target="_blank">Clique aqui para ver os shows!</a>');
     var urb = L.marker([-29.99699, -51.20062]).addTo(mapa).bindPopup('URB Stage, <a href="urbstage.html" target="_blank">Clique aqui para ver os shows!</a>');
     var kto = L.marker([-29.98789,-51.17768]).addTo(mapa).bindPopup('KTO Arena, <a href="ktoarena.html" target="_blank">Clique aqui para ver os shows!</a>');
