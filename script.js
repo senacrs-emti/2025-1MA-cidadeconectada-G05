@@ -29,8 +29,8 @@ function success(pos){
         .openPopup();
 
     var araujoviana = L.marker([-30.03580, -51.21445]).addTo(mapa)
-            .bindPopup('Auditório Araújo Viana, <a href="araujoviana.html" target="_blank">Clique aqui para ver os shows!</a>')
-            .openPopup('Auditório Araújo Viana, <a href="araujoviana.html" target="_blank">Clique aqui para ver os shows!</a>');
+            .bindPopup('Auditório Araújo Vianna, <a href="araujovianna.html" target="_blank">Clique aqui para ver os shows!</a>')
+            .openPopup('Auditório Araújo Vianna, <a href="araujovianna.html" target="_blank">Clique aqui para ver os shows!</a>');
 }
 function error(err){
     console.log(err);

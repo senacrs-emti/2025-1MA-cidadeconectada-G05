@@ -11,9 +11,6 @@ header{
     z-index: 9999;
     width: 100%;
 }
-body{
-    background-color: #f1f0eb;
-}
 header h1{
     float: left;
     margin-top: 18px;
@@ -54,7 +51,7 @@ a{
     color: white;
 }
 main{
-    height: 2200px;
+    height: 2000px;
     width: 100%;
     background-color: rgb(235, 232, 232);
    
@@ -78,7 +75,7 @@ article h1{
   height: 32%;
 }
 .auditorio h2{
-  text-align: center;
+  margin-left: 35%;
   font-size: 50px;
 }
 
@@ -109,7 +106,15 @@ article h1{
     margin-bottom: 20px;
     font-size: 17px;
 }
-
+ 
+.show button {
+    background-color:blueviolet;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+}
 .show:hover {
   transform: scale(1.1);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
