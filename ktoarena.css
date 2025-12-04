@@ -104,7 +104,14 @@ article h1{
     margin-bottom: 10px;
     border-radius: 10px;
 }
- 
+.show button {
+    background-color:blueviolet;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+}
 .show p {
     margin-bottom: 20px;
     font-size: 17px;

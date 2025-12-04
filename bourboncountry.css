@@ -97,7 +97,14 @@ article h1{
     margin-top: 80px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+.show button {
+    background-color:blueviolet;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+}
 .show img {
     width: 100%;
     height: auto;
